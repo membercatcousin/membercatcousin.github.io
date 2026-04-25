@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: hsl(0, 0%, 10%);
+    color: hsl(0, 0%, 90%);
+}
+
+body {
+    min-height: 100vh;
+}
+
+a {
+    color: hsl(224, 100%, 61%);
+}
+
+.navbar {
+    width: 100%;
+    background-color: hsl(100, 100%, 15%);
+}
+
+.navdiv {
+    max-width: 1200px;
+    margin: auto;
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.navdiv .logo img {
+    display: block;
+    max-width: 512px;
+    height: auto;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.nav-links ul li a {
+    background-color: hsl(100, 100%, 10%);
+    color: white;
+    border-radius: 35px;
+   text-decoration: none;
+    padding: 10px 24px;
+    border: 1px solid hsl(100, 100%, 45%);
+    transition: all 0.15s ease;
+}
+
+.nav-links ul li a:hover {
+    text-decoration: underline;
+    background-color: hsl(100, 100%, 35%);
+    box-shadow: 0 0 10px hsl(100, 100%, 45%), 0 0 5px hsl(100, 100%, 50%);
+}
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 24px;
+}

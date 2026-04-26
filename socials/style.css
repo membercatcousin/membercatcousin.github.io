@@ -1,0 +1,39 @@
+.head {
+    text-align: center;
+    margin: 3rem;
+}
+
+.head h1 {
+    font-size: 3rem;
+    margin-bottom: 16px;
+}
+
+.socials {
+    margin: 3rem;
+    padding: 1rem;
+    background-color: hsl(0, 0%, 5%);
+    display: flex;
+    border-radius: 5rem;
+    gap: 24px;
+    justify-content: center;
+}
+
+.socials a {
+    background-color: hsl(100, 100%, 10%);
+    color: hsl(0, 0%, 80%);
+    text-align: center;
+    text-decoration: none;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 3rem;
+    transition: all 0.15s ease;
+}
+
+.socials a:hover {
+    background-color: hsl(100, 100%, 25%);
+    transform: translateY(-5px);
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}

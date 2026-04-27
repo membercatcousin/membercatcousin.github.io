@@ -51,16 +51,16 @@ a {
     background-color: hsl(100, 100%, 10%);
     color: white;
     border-radius: 35px;
-   text-decoration: none;
+    text-decoration: none;
     padding: 10px 24px;
     border: 1px solid hsl(100, 100%, 45%);
     transition: all 0.15s ease;
 }
 
 .nav-links ul li a:hover {
-    text-decoration: underline;
-    background-color: hsl(100, 100%, 35%);
-    box-shadow: 0 0 10px hsl(100, 100%, 45%), 0 0 5px hsl(100, 100%, 50%);
+    background-color: hsl(100, 100%, 25%);
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 main {
